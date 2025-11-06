@@ -1,0 +1,8 @@
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+jobs:
+  date_time:
+    runs-on: ubuntu-latest
+    steps:
+      - run: date
